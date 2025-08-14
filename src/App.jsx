@@ -20,8 +20,8 @@ export default function App(){
           <div className="brand">
             <img alt="Logo Tania Hernández" src={logoUrl} />
             <div>
-              <div style={{fontWeight:700, fontSize: '3rem', lineHeight: 1.2 }}>Tania Hernández</div>
-              <div style={{opacity:.9}}>Cosmetóloga Cosmiatra</div>
+              <div className="brand-name">Tania Hernández</div>
+              <div className="brand-role">Cosmetóloga Cosmiatra</div>
             </div>
           </div>
           <h1>Tu piel, tu momento, tu cuidado profesional</h1>
