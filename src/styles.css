@@ -23,3 +23,5 @@ footer { text-align:center; color:white; background:var(--teal); margin-top:32px
 .gallery { display:grid; gap:10px; grid-template-columns:repeat(2,1fr); margin-top:10px; }
 .gallery div { background:#eaf3f2; border-radius:12px; padding-top:62%; position:relative; overflow:hidden; }
 .gallery div span { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#0f766e; font-weight:600; opacity:.8; }
+.brand-name {font-size: 2rem;    /* ~32px en móvil */font-weight: 700;line-height: 1.2;}
+.brand-role {font-size: 1rem;    /* ~16px */opacity: .9;}
